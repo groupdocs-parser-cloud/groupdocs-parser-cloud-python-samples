@@ -9,7 +9,7 @@ Common.app_key = "XXXXXXXXXXXXXXXXXXX"
 Common.myStorage = "First Storage"
 
 # Uploading sample test files from local disk to cloud storage
-#Common.UploadSampleFiles()
+Common.UploadSampleFiles()
 
 from InfoOperations.GetSupportedFormats import GetSupportedFormats
 GetSupportedFormats.Run()
