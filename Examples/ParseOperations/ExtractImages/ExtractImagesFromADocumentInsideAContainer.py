@@ -24,3 +24,4 @@ class ExtractImagesFromADocumentInsideAContainer:
             print("Images from " + str(page.page_index) + " page.")
             for image in page.images:
                 print("Image path in storage: " + image.path + ". Download url: " + image.download_url)
+                print("Image format: " + image.file_format + ". Page index: " + str(image.page_index))

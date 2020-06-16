@@ -16,3 +16,4 @@ class ExtractImagesFromTheWholeDocument:
 
         for image in result.images:
             print("Image path in storage: " + image.path + ". Download url: " + image.download_url)
+            print("Image format: " + image.file_format + ". Page index: " + str(image.page_index))
